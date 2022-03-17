@@ -2,7 +2,7 @@ pipeline {
 environment {
 registry = "reddyilluri/hello-world"
 registryCredential = 'reddyilluri'
-dockerImage = ''
+dockerImage = 'golang:1.14'
 }
 agent any
 stages {
